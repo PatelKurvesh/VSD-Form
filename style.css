@@ -1,0 +1,55 @@
+*{
+    margin: 5px;
+}
+
+body{
+    padding: 5px;
+    margin: 5px;
+    background-color: aquamarine;
+}
+.container{
+    border: 2px solid black;
+    display: block;
+    width: 30%;
+    margin: auto;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+span{
+    padding-left: 10px;
+}
+.btn{
+    background-color: gray;
+    padding: 3px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.btn:hover{
+    background-color: azure;
+}
+.follow{
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin: auto;
+    margin-bottom: 5px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* a{
+    height: 5px;
+} */
+.info{
+    font-weight: bold;
+}
